@@ -322,7 +322,7 @@ cursor: pointer;
 /* media start */
 
 
-@media (max-width: 1200px) {
+@media(max-width: 1200px) {
   .container {
     max-width: 992px;
   }
@@ -336,6 +336,14 @@ cursor: pointer;
     font-size: 14px;
     line-height: 22px;
   
+  }
+
+  .main__about-board{
+    display: none;
+  }
+
+  .main__travel-image{
+    display: none;
   }
 }
 
